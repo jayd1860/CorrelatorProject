@@ -1,0 +1,30 @@
+﻿# levenberg-maquardt-example
+Simple example of usage levmarq.c for solving Newton law of heating
+
+
+Functions of more than one variable[edit]
+Main article: Second partial derivative test
+
+Peano surface, a counterexample to some criteria of local maxima of the 19th century
+For functions of more than one variable, similar conditions apply. For example, in the 
+(enlargeable) figure at the right, the necessary conditions for a local maximum are 
+similar to those of a function with only one variable. The first partial derivatives 
+as to z (the variable to be maximized) are zero at the maximum (the glowing dot on top 
+in the figure). The second partial derivatives are negative. These are only necessary, 
+not sufficient, conditions for a local maximum because of the possibility of a saddle 
+point. For use of these conditions to solve for a maximum, the function z must also be 
+differentiable throughout. The second partial derivative test can help classify the 
+point as a relative maximum or relative minimum. In contrast, there are substantial 
+differences between functions of one variable and functions of more than one variable 
+in the identification of global extrema. For example, if a bounded differentiable 
+function f defined on a closed interval in the real line has a single critical point, 
+which is a local minimum, then it is also a global minimum (use the intermediate value 
+theorem and Rolle's theorem to prove this by reductio ad absurdum). In two and more 
+dimensions, this argument fails, as the function
+                                   
+f(x,y) = x^2+y^2(1-x)^3, x,y |-- {R} 
+                                 
+shows. Its only critical point is at (0,0), which is a local minimum with ƒ(0,0) = 0. 
+However, it cannot be a global one, because ƒ(2,3) = −5.
+
+

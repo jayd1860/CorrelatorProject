@@ -1,0 +1,320 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\Fx3ReceiveData.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Fx3ReceiveData.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 170, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Fx3ReceiveData"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "Fx3ReceiveData, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2016",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,113,41,50,14,WS_GROUP
+END
+
+IDD_FILENM_BASE_DIALOG DIALOGEX 0, 0, 611, 519
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Fx3ReceiveData"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_CTRL1,18,136,360,108,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CTRL2,18,251,360,108,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CTRL3,18,395,360,108,ES_AUTOHSCROLL
+    COMBOBOX        IDC_CBO_DEVICES,109,18,204,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Devices Found",IDC_STATIC,54,20,49,8
+    GROUPBOX        "Save Data",IDC_STATIC,18,37,359,96,BS_CENTER | WS_GROUP
+    RADIOBUTTON     "Save Raw Data",IDC_RAD_SAVE_RAW_DATA,46,51,66,10,WS_GROUP | WS_TABSTOP
+    RTEXT           "Session Folder",IDC_STATIC_SESSION_FOLDER,30,72,65,8
+    RTEXT           "Save Timeout",IDC_STC_TIMEOUT,21,111,74,8
+    EDITTEXT        IDC_EDIT_SESSION_FOLDER,103,71,188,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Browse",IDC_BTN_BROWSE_FOLDER,296,71,31,14
+    COMBOBOX        IDC_CBO_TIMEOUT,103,110,62,30,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Seconds",IDC_STC_MILLI,173,112,34,8
+    PUSHBUTTON      "Start Data Transfer",IDC_BTN_START_TRANSFER,452,37,94,20
+    GROUPBOX        "Photon counts per second",IDC_STATIC,423,189,169,156,BS_CENTER | WS_GROUP,WS_EX_CLIENTEDGE
+    LTEXT           "0",IDC_STC_PHOTCOUNT_DET1,465,222,35,14,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "0",IDC_STC_PHOTCOUNT_DET2,465,244,35,15,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "0",IDC_STC_PHOTCOUNT_DET3,465,272,35,14,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "0",IDC_STC_PHOTCOUNT_DET4,465,297,35,14,SS_CENTERIMAGE | SS_SUNKEN
+    PUSHBUTTON      "FX3 Config GUI",IDC_BUTTON_DEV_CONFIG,326,13,77,20
+    CONTROL         "auto zoom",IDC_CHECK_AUTOZOOM,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,305,371,73,14
+    LTEXT           "0",IDC_ELAPSED_TIME,80,370,49,15,SS_CENTERIMAGE | SS_SUNKEN
+    RTEXT           "Elapsed Time",IDC_ELAPSED_TIME_LABEL,21,373,52,8
+    CONTROL         "Det 1",IDC_PHOT_COUNT_DET1_CHECKBOX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,431,224,33,10
+    CONTROL         "Det 2",IDC_PHOT_COUNT_DET2_CHECKBOX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,431,249,33,10
+    CONTROL         "Det 3",IDC_PHOT_COUNT_DET3_CHECKBOX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,431,274,33,10
+    CONTROL         "Det 4",IDC_PHOT_COUNT_DET4_CHECKBOX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,431,299,33,10
+    GROUPBOX        "Setting Current of the Laser",IDC_STATIC,424,88,168,97,BS_CENTER | WS_GROUP,WS_EX_CLIENTEDGE
+    RTEXT           "Current set: ",IDC_CURRENT_SET_LABEL,429,106,45,8
+    EDITTEXT        IDC_CURRENT_SET_EDIT,437,118,50,13,ES_AUTOHSCROLL
+    RTEXT           "mA",IDC_CURRENT_SET_mA_LABEL,492,121,14,8
+    RTEXT           "Satus of Current Setting",IDC_CURRENT_SET_LABEL2,434,137,75,8
+    PUSHBUTTON      "send Commend",IDC_BTN_SEND_CMD_2SETCURRENT,518,118,61,14
+    RTEXT           "0",IDC_OLD_CURRENT_NUM,479,106,31,8
+    RTEXT           "mA",IDC_OLD_CURRENT_NUM_UNIT,517,106,14,8
+    EDITTEXT        IDC_STC_STATUS_SETCURRENT,429,147,155,28,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY | WS_VSCROLL
+    LTEXT           "0",IDC_DATA_RATE,496,63,59,14,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "Transfer Rate",IDC_DATA_RATE_LABEL,432,65,54,8,SS_CENTERIMAGE,WS_EX_RIGHT
+    LTEXT           "K",IDC_K_LABEL1,503,225,8,8,SS_CENTERIMAGE
+    LTEXT           "K",IDC_K_LABEL2,503,250,8,8,SS_CENTERIMAGE
+    LTEXT           "K",IDC_K_LABEL3,503,275,8,8,SS_CENTERIMAGE
+    LTEXT           "K",IDC_K_LABEL4,504,300,8,8,SS_CENTERIMAGE
+    LTEXT           "KB",IDC_STATIC,560,66,9,8,SS_CENTERIMAGE
+    LTEXT           "Delay Threshold ",IDC_STATIC_DELAY_THRESHOLD,424,490,59,10,0,WS_EX_RIGHT
+    EDITTEXT        IDC_EDIT_DELAY_THRESHOLD,486,488,56,14,ES_AUTOHSCROLL | ES_WANTRETURN
+    PUSHBUTTON      "Update",IDC_BUTTON_DELAY_THRESHOLD,549,484,44,20
+    RADIOBUTTON     "Save Correlation Data",IDC_RAD_SAVE_CORR_DATA,124,51,87,10,WS_GROUP | WS_TABSTOP
+    LTEXT           "Count Limit",IDC_TEXT_COUNT_LIMIT,453,327,38,8
+    EDITTEXT        IDC_EDIT_COUNT_LIMIT,493,324,53,14,ES_AUTOHSCROLL
+    LTEXT           "K",IDC_K_LABEL5,552,326,8,8,SS_CENTERIMAGE
+    LTEXT           "0",IDC_CORR_ELAPSED_TIME,223,371,49,15,SS_CENTERIMAGE | SS_SUNKEN
+    RTEXT           "Corr Elapsed Time",IDC_CORR_ELAPSED_TIME_LABEL,148,374,68,8
+    LTEXT           "0, 0",IDC_STC_BFIBETA_DET1,523,223,62,14,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "0, 0",IDC_STC_BFIBETA_DET2,523,248,62,15,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "0, 0",IDC_STC_BFIBETA_DET3,523,272,62,14,SS_CENTERIMAGE | SS_SUNKEN
+    LTEXT           "0, 0",IDC_STC_BFIBETA_DET4,523,298,62,14,SS_CENTERIMAGE | SS_SUNKEN
+    CTEXT           "BFi, beta",IDC_STATIC_BFIBETA_LABEL,527,209,46,8
+    CTEXT           "phot count",IDC_STATIC,459,208,42,8
+    RTEXT           "Base File Name",IDC_STATIC_FILENM_BASE,30,90,65,8
+    EDITTEXT        IDC_EDIT_FILENM_BASE,103,89,188,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Submit",IDC_BTN_SUBMIT,261,110,31,14
+    RADIOBUTTON     "Replay Existing Data",IDC_RAD_REPLAY_EXIST_DATA,253,52,82,10,WS_GROUP | WS_TABSTOP
+    PUSHBUTTON      "Browse",IDC_BTN_BROWSE_FILE,296,90,31,14,NOT WS_VISIBLE
+END
+
+IDD_DLG_WAIT DIALOGEX 0, 0, 207, 48
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION
+EXSTYLE WS_EX_CLIENTEDGE
+CAPTION "Wait for Data Write Operation to Complete"
+FONT 10, "MS Sans Serif", 400, 0, 0x0
+BEGIN
+    LTEXT           "File Data Writing Operation is in Progress .....................",IDC_STATIC,19,18,175,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Fx3ReceiveData.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "Fx3ReceiveData.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 163
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 55
+    END
+
+    IDD_FILENM_BASE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 604
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 509
+    END
+
+    IDD_DLG_WAIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 41
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_FILENM_BASE_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DLG_WAIT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_FILENM_BASE_DIALOG DLGINIT
+BEGIN
+    IDC_CBO_TIMEOUT, 0x403, 2, 0
+0x0031, 
+    IDC_CBO_TIMEOUT, 0x403, 2, 0
+0x0035, 
+    IDC_CBO_TIMEOUT, 0x403, 3, 0
+0x3031, "\000" 
+    IDC_CBO_TIMEOUT, 0x403, 3, 0
+0x3531, "\000" 
+    IDC_CBO_TIMEOUT, 0x403, 3, 0
+0x3032, "\000" 
+    IDC_CBO_TIMEOUT, 0x403, 3, 0
+0x3532, "\000" 
+    IDC_CBO_TIMEOUT, 0x403, 3, 0
+0x3033, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_ABOUTBOX            "&About Fx3ReceiveData..."
+END
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\Fx3ReceiveData.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

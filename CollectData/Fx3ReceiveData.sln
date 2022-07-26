@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Fx3ReceiveData", "Fx3ReceiveData\Fx3ReceiveData.vcxproj", "{153C477B-B205-408F-94E4-993F312E1762}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WindowsFormsControlLibrary1", "WindowsFormsControlLibrary1\WindowsFormsControlLibrary1.vcxproj", "{2CF8BFDB-0545-4EC3-8BEE-6D3798EA9B1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPGAConfig", "FPGAConfig\FPGAConfig.csproj", "{9EC0EED5-C513-4E8D-8A59-ACDA76169379}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{153C477B-B205-408F-94E4-993F312E1762}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{153C477B-B205-408F-94E4-993F312E1762}.Debug|Win32.ActiveCfg = Debug|Win32
+		{153C477B-B205-408F-94E4-993F312E1762}.Debug|Win32.Build.0 = Debug|Win32
+		{153C477B-B205-408F-94E4-993F312E1762}.Debug|x64.ActiveCfg = Debug|Win32
+		{153C477B-B205-408F-94E4-993F312E1762}.Release|Any CPU.ActiveCfg = Release|Win32
+		{153C477B-B205-408F-94E4-993F312E1762}.Release|Win32.ActiveCfg = Release|Win32
+		{153C477B-B205-408F-94E4-993F312E1762}.Release|Win32.Build.0 = Release|Win32
+		{153C477B-B205-408F-94E4-993F312E1762}.Release|x64.ActiveCfg = Release|Win32
+		{2CF8BFDB-0545-4EC3-8BEE-6D3798EA9B1A}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{2CF8BFDB-0545-4EC3-8BEE-6D3798EA9B1A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CF8BFDB-0545-4EC3-8BEE-6D3798EA9B1A}.Debug|Win32.Build.0 = Debug|Win32
+		{2CF8BFDB-0545-4EC3-8BEE-6D3798EA9B1A}.Debug|x64.ActiveCfg = Debug|Win32
+		{2CF8BFDB-0545-4EC3-8BEE-6D3798EA9B1A}.Release|Any CPU.ActiveCfg = Release|Win32
+		{2CF8BFDB-0545-4EC3-8BEE-6D3798EA9B1A}.Release|Win32.ActiveCfg = Release|Win32
+		{2CF8BFDB-0545-4EC3-8BEE-6D3798EA9B1A}.Release|Win32.Build.0 = Release|Win32
+		{2CF8BFDB-0545-4EC3-8BEE-6D3798EA9B1A}.Release|x64.ActiveCfg = Release|Win32
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Debug|Win32.Build.0 = Debug|Any CPU
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Debug|x64.Build.0 = Debug|Any CPU
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Release|Win32.ActiveCfg = Release|Any CPU
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Release|Win32.Build.0 = Release|Any CPU
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Release|x64.ActiveCfg = Release|Any CPU
+		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

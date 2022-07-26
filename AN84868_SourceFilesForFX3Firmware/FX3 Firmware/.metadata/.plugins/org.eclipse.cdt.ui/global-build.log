@@ -1,0 +1,8 @@
+20:20:52 **** Incremental Build of configuration Debug for project ConfigFpgaSlaveFifoSync ****
+cs-make all 
+'Invoking: ARM Sourcery Windows GNU Print Size'
+arm-none-eabi-size  --format=berkeley ConfigFpgaSlaveFifoSync.elf
+   text	   data	    bss	    dec	    hex	filename
+ 156564	   1444	   6420	 164428	  2824c	ConfigFpgaSlaveFifoSync.elf
+'Finished building: ConfigFpgaSlaveFifoSync.siz'
+' '

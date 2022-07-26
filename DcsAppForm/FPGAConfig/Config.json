@@ -1,0 +1,9 @@
+{
+	"ProjectRootDir":	     "..",
+        
+	"FX3_FPGAFirmwareUploadExe": "AN84868_SourceFilesForFX3Firmware\\FX3 Firmware\\ConfigFpgaSlaveFifoSync\\Debug\\ConfigFpgaSlaveFifoSync.img",
+
+	"FPGA_FirmwareExe":          "FPGAboardSoftwareFromBernard\\fpga\\onboard_cw\\tdccorr_50ksps.bin",
+
+	"FX3_StreamerFirmwareExe":   "workspaces2\\GPIF_Example4\\Debug\\GPIF_Example4.img"
+}

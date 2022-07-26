@@ -1,0 +1,9 @@
+{
+	"ProjectRootDir":	     ".\\",
+        
+	"FX3_FPGAFirmwareUploadExe": "ConfigFpgaSlaveFifoSync.img",
+
+	"FPGA_FirmwareExe":          "tdccorr_50ksps.bin",
+
+	"FX3_StreamerFirmwareExe":   "GPIF_Example4.img"
+}
