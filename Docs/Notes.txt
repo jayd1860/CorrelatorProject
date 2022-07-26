@@ -21,7 +21,21 @@ The only thing that worked is copying the VS project files from CollectData/FPGA
 =============================================
 Jul 26, 2022
 
-In creating a git project from correlatorproject removed ./SimData/simData.bin because it is 500 MB - which is too large for a free github account. Replaced with an empty file ./SimData/simData.bin place holder. 
+-- In creating a git project from correlatorproject removed ./SimData/simData.bin because it is 500 MB - which is too large for a free github account. Replaced with an empty file ./SimData/simData.bin place holder. 
 
+-- After downloading and installing VS 2017 community edition x64 and launching DcsFormApp.sln for the first time I get this dialog from VS
 
+The C# project "FPGSConfig " is targeting ".NETFramework, Version=v3.5", which is not installed on this machine. To proceed, select an option below.
 
+   o  Change the target to .NET Framework 4.6.1 You can chyange back to ".NETFramework, Version=v3.5" at a later time.
+   o  Download the targeting pack for ".NETFramework, Version=v3.5". The project will not change.
+   o  Do not load project.
+   
+I chose first option. 
+
+-- Then it asks you if you want to upgrade to v141 (the solution originally is v140). Choose yes you want to upgrade. This works to start the application.
+Copying simData.bin (which is not under github version control because it is too large) from the original repo SimData/simData.bin to the git repo SimData/simData.bin, will allow for simulation to work when clicking START button
+
+-- So even though FPGAConfig built it had an exception. So went back to .NET v3.5 configuration (from .NET v4.6.1), and installed .NET v3.5 on my computer. That worked. That is, not only did it build but it also ran without issue. The FPGA config dialog came up
+
+-- Still could not push the new simData.bin file at 103MB because github's large file size limit is 100MB. Will make it even slightly smaller to be under that limit.

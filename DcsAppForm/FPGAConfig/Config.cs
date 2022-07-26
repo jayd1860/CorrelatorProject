@@ -14,7 +14,6 @@ namespace FPGAConfig
         {
             string json = string.Empty;
             int ii=0;
-            string path = Directory.GetCurrentDirectory();
 
             while (ii < cfgfilepath.Length)
             {
@@ -52,7 +51,8 @@ namespace FPGAConfig
         }
 
         private string[] cfgfilepath = {
-            ".\\FPGAConfig\\Config.json",
+            ".\\Config.json",
+            "..\\FPGAConfig\\Config.json"
         };
 
         private string ProjectRootDir;

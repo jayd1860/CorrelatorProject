@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DcsAppForm", "DcsAppForm.vcxproj", "{4528D9BF-39C7-449F-9039-E6C97F87F3E9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{08BAE171-A17A-45C6-B7EF-975EA27202B5} = {08BAE171-A17A-45C6-B7EF-975EA27202B5}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FPGAConfig", "FPGAConfig\FPGAConfig.csproj", "{9EC0EED5-C513-4E8D-8A59-ACDA76169379}"
 EndProject
@@ -44,6 +47,7 @@ Global
 		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Release|x86.ActiveCfg = Release|Any CPU
 		{9EC0EED5-C513-4E8D-8A59-ACDA76169379}.Release|x86.Build.0 = Release|Any CPU
 		{08BAE171-A17A-45C6-B7EF-975EA27202B5}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{08BAE171-A17A-45C6-B7EF-975EA27202B5}.Debug|Any CPU.Build.0 = Debug|Win32
 		{08BAE171-A17A-45C6-B7EF-975EA27202B5}.Debug|x64.ActiveCfg = Debug|x64
 		{08BAE171-A17A-45C6-B7EF-975EA27202B5}.Debug|x64.Build.0 = Debug|x64
 		{08BAE171-A17A-45C6-B7EF-975EA27202B5}.Debug|x86.ActiveCfg = Debug|Win32

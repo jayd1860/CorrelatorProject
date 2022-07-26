@@ -1,5 +1,5 @@
 {
-	"ProjectRootDir":	     "..",
+	"ProjectRootDir":	     "..\\..",
         
 	"FX3_FPGAFirmwareUploadExe": "AN84868_SourceFilesForFX3Firmware\\FX3 Firmware\\ConfigFpgaSlaveFifoSync\\Debug\\ConfigFpgaSlaveFifoSync.img",
 
