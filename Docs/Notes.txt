@@ -1,0 +1,27 @@
+Jul 25, 2022
+
+
+Trying to build FPGAConfig
+
+When I clean it I get this!
+
+1>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets(5055,5): warning MSB3061: Unable to delete file "C:\jdubb\workspaces\CorrelatorProject\correlatorproject.r149.git\DcsAppForm\FPGAConfig\bin\Debug\FPGAConfig.exe". Access to the path 'C:\jdubb\workspaces\CorrelatorProject\correlatorproject.r149.git\DcsAppForm\FPGAConfig\bin\Debug\FPGAConfig.exe' is denied.
+
+
+Taking owenership of files and folders did not work:
+
+This did not work either:
+https://stackoverflow.com/questions/43002441/error-while-trying-to-run-project-unable-to-start-program-the-request-is-not-s
+
+Answer:  You need to check "Use Managed Compatibility Mode" in Tools|Options|Debugging|General.
+
+The only thing that worked is copying the VS project files from CollectData/FPGAConfig (which does work) to DcsAppForm/FPGAConfig
+
+
+=============================================
+Jul 26, 2022
+
+In creating a git project from correlatorproject removed ./SimData/simData.bin because it is 500 MB - which is too large for a free github account. Replaced with an empty file ./SimData/simData.bin place holder. 
+
+
+
